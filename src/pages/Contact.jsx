@@ -42,7 +42,7 @@ const Contact = () => {
         <p className="text-xl mb-6">We're here to help you with your insurance needs</p>
         <a
           href="#form"
-          className="bg-white text-indigo-800 py-3 px-6 rounded-lg text-lg font-semibold hover:bg-indigo-100 transition-all duration-300"
+          className="bg-white text-indigo-800 py-3 px-6 rounded-lg text-lg font-semibold hover:bg-indigo-100 transition-all duration-2900"
         >
           Send a Message
         </a>

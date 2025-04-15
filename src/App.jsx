@@ -7,6 +7,7 @@ import SignUpPage from './pages/SignUpPage.jsx';
 import Contact from './pages/Contact.jsx';
 import About from './pages/About.jsx';
 import Footer from './components/Footer.jsx'
+import InsurancePlans from './pages/InsurancePlans.jsx';
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/signup" element={<SignUpPage />} />
+        <Route path='/insuranceplans' element={<InsurancePlans />} />
       </Routes>
       {/* Footer Section */}
       <Footer/>
